@@ -1,0 +1,47 @@
+{
+  "name": "my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --progress --colors",
+    "watch": "echo \"watch 脚本已废弃，请使用npm start！\" && exit 1",
+    "start": "node server",
+    "version": "node replaceVersion"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "classnames": "^2.2.5",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "style-loader": "^0.17.0",
+    "tiny-lr": "^1.0.5",
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^4.0.0",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-css-base64": "^1.3.4",
+    "html-webpack-plugin": "^2.30.1",
+    "iscroll": "^5.2.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0"
+  }
+}
