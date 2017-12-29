@@ -7,7 +7,6 @@ Main website JavaScript
 // unsupported browser
 if (!window.addEventListener || !window.history || !window.requestAnimationFrame || !document.getElementsByClassName) return;
 
-
 // enable service worker
 if ('serviceWorker' in navigator) {
   // register service worker
