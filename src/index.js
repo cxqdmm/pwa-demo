@@ -10,8 +10,6 @@ if (!window.addEventListener || !window.history || !window.requestAnimationFrame
 
 // enable service worker
 if ('serviceWorker' in navigator) {
-
-
   // register service worker
   let serviceWorker = navigator.serviceWorker.register('/service-worker.js');
   // load script to populate offline page list
